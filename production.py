@@ -11,8 +11,7 @@ def reverse_word(word):
         return ""
     if len(word) == 1:
         return word
-    else:
-        return word[::-1]
+    return word[::-1]
 
 def reverse_all_words(sentence):
     '''
